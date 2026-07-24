@@ -4,5 +4,9 @@ name: standard
 description: Standard security workstation (comparable to kali-linux-default)
 bundles:
   - networking
+  - top10
+  - information-gathering
+  - vulnerability
   - web
   - passwords
+  - wireless

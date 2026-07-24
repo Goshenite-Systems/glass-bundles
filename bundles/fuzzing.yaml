@@ -1,0 +1,14 @@
+# Goshenite bundle: fuzzing
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the fuzzing-lab distrobox.
+name: fuzzing
+description: "Fuzzing"
+category: fuzzing
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   afl++
+#   sfuzz
+#   spike
+#   wfuzz
+containers:
+  - ghcr.io/goshenite-systems/fuzzing-lab:latest

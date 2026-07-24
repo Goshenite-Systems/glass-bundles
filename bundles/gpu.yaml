@@ -1,0 +1,6 @@
+# Goshenite bundle: gpu
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the gpu-lab distrobox.
+name: gpu
+description: "GPU-accelerated tooling"
+category: gpu

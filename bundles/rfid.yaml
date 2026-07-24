@@ -1,0 +1,10 @@
+# Goshenite bundle: rfid
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the rfid-lab distrobox.
+name: rfid
+description: "RFID/NFC tooling"
+category: rfid
+
+rpm:
+  - gnuradio
+  - proxmark3

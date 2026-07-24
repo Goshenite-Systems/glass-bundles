@@ -1,0 +1,23 @@
+# Goshenite bundle: identify
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the identify-lab distrobox.
+name: identify
+description: "Defensive: identify (NIST CSF)"
+category: identify
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   amass
+#   assetfinder
+#   cisco-auditing-tool
+#   defectdojo
+#   exploitdb
+#   hb-honeypot
+#   maltego
+#   maryam
+#   nipper-ng
+#   osrframework
+#   spiderfoot
+#   tiger
+#   ... +3 more
+containers:
+  - ghcr.io/goshenite-systems/identify-lab:latest

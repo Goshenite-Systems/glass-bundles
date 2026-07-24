@@ -1,0 +1,33 @@
+# Goshenite bundle: sniffing-spoofing
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the sniffing-spoofing-lab distrobox.
+name: sniffing-spoofing
+description: "Sniffing and spoofing"
+category: sniffing-spoofing
+
+rpm:
+  - darkstat
+  - dsniff
+  - macchanger
+  - netsniff-ng
+  - sslsplit
+  - tcpflow
+  - tcpreplay
+  - wireshark
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   above
+#   bettercap
+#   dnschef
+#   driftnet
+#   ettercap-graphical
+#   ferret-sidejack
+#   fiked
+#   hamster-sidejack
+#   hexinject
+#   isr-evilgrade
+#   mitmproxy
+#   rebind
+#   ... +4 more
+containers:
+  - ghcr.io/goshenite-systems/sniffing-spoofing-lab:latest

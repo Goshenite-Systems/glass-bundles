@@ -1,0 +1,16 @@
+# Goshenite bundle: hardware
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the hardware-lab distrobox.
+name: hardware
+description: "Hardware hacking"
+category: hardware
+
+rpm:
+  - binwalk
+  - cutecom
+  - flashrom
+  - minicom
+  - openocd
+  - qemu-system-x86
+  - qemu-user
+  - radare2

@@ -1,0 +1,26 @@
+# Goshenite bundle: reverse-engineering
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the reversing-lab distrobox.
+name: reverse-engineering
+description: "Reverse engineering"
+category: reverse-engineering
+
+rpm:
+  - clang
+  - radare2
+  - rizin
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   apktool
+#   bytecode-viewer
+#   dex2jar
+#   edb-debugger
+#   jadx
+#   javasnoop
+#   jd-gui
+#   metasploit-framework
+#   ollydbg
+#   rizin-cutter
+#   rz-ghidra
+containers:
+  - ghcr.io/goshenite-systems/reversing-lab:latest

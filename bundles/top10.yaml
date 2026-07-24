@@ -1,0 +1,13 @@
+# Goshenite bundle: top10
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the top10-lab distrobox.
+name: top10
+description: "Kali top-10 headline tools"
+category: top10
+
+rpm:
+  - aircrack-ng
+  - hydra
+  - john
+  - nmap
+  - wireshark

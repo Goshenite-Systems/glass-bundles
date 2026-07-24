@@ -1,0 +1,20 @@
+# Goshenite bundle: recover
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the recover-lab distrobox.
+name: recover
+description: "Defensive: recover (NIST CSF)"
+category: recover
+
+rpm:
+  - ddrescue
+  - extundelete
+  - undbx
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   ext3grep
+#   myrescue
+#   recoverdm
+#   recoverjpeg
+#   scrounge-ntfs
+containers:
+  - ghcr.io/goshenite-systems/recover-lab:latest

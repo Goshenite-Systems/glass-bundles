@@ -1,0 +1,16 @@
+# Goshenite bundle: 802-11
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the 802-11-lab distrobox.
+name: 802-11
+description: "802.11 (Wi-Fi) attacks"
+category: 802-11
+
+rpm:
+  - aircrack-ng
+  - cowpatty
+  - hashcat
+  - iw
+  - kismet
+  - macchanger
+  - pixiewps
+  - reaver

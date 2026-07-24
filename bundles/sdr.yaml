@@ -1,0 +1,15 @@
+# Goshenite bundle: sdr
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the sdr-lab distrobox.
+name: sdr
+description: "Software-defined radio"
+category: sdr
+
+rpm:
+  - chirp
+  - gnuradio
+  - gr-air-modes
+  - gr-iqbal
+  - gr-osmosdr
+  - hackrf
+  - kalibrate-rtl

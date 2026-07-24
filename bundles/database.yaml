@@ -1,0 +1,22 @@
+# Goshenite bundle: database
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the database-lab distrobox.
+name: database
+description: "Database assessment"
+category: database
+
+rpm:
+  - mdbtools
+  - sqlitebrowser
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   jsql-injection
+#   oscanner
+#   sidguesser
+#   sqldict
+#   sqlmap
+#   sqlninja
+#   sqlsus
+#   tnscmd10g
+containers:
+  - ghcr.io/goshenite-systems/database-lab:latest

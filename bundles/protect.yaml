@@ -1,0 +1,17 @@
+# Goshenite bundle: protect
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the protect-lab distrobox.
+name: protect
+description: "Defensive: protect (NIST CSF)"
+category: protect
+
+rpm:
+  - clamav
+  - cryptsetup
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   cryptsetup-initramfs
+#   cryptsetup-nuke-password
+#   fwbuilder
+containers:
+  - ghcr.io/goshenite-systems/protect-lab:latest

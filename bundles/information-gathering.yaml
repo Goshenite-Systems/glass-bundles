@@ -1,0 +1,44 @@
+# Goshenite bundle: information-gathering
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the osint-lab distrobox.
+name: information-gathering
+description: "Reconnaissance and information gathering"
+category: information-gathering
+
+rpm:
+  - dnsenum
+  - dnsmap
+  - dnstracer
+  - firewalk
+  - fping
+  - hping3
+  - lbd
+  - masscan
+  - netmask
+  - nmap
+  - onesixtyone
+  - p0f
+  - snmpcheck
+  - ssldump
+  - sslh
+  - sslscan
+  - swaks
+  - thc-ipv6
+  - wafw00f
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   0trace
+#   arping
+#   braa
+#   dmitry
+#   dnsrecon
+#   dnswalk
+#   enum4linux
+#   fierce
+#   fragrouter
+#   ftester
+#   ike-scan
+#   intrace
+#   ... +18 more
+containers:
+  - ghcr.io/goshenite-systems/osint-lab:latest

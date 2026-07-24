@@ -1,0 +1,16 @@
+# Goshenite bundle: wireless
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the wireless-lab distrobox.
+name: wireless
+description: "Wireless attacks"
+category: wireless
+
+rpm:
+  - wireshark
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   rfcat
+#   rfkill
+#   sakis3g
+containers:
+  - ghcr.io/goshenite-systems/wireless-lab:latest

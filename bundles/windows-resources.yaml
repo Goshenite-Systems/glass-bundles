@@ -1,0 +1,26 @@
+# Goshenite bundle: windows-resources
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the windows-lab distrobox.
+name: windows-resources
+description: "Windows resources & binaries"
+category: windows-resources
+
+rpm:
+  - sbd
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   dbd
+#   dnschef
+#   heartleech
+#   hyperion
+#   mimikatz
+#   ncat-w32
+#   ollydbg
+#   powercat
+#   regripper
+#   secure-socket-funneling-windows-binaries
+#   shellter
+#   tftpd32
+#   ... +3 more
+containers:
+  - ghcr.io/goshenite-systems/windows-lab:latest

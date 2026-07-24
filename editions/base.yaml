@@ -1,7 +1,8 @@
 # Goshenite edition: Base
-# Minimal security workstation. Foundational, stable tooling only.
-# Fast-moving offensive tooling is expected to be pulled per-need as distrobox containers.
+# Minimal security workstation — foundational, RPM-friendly tooling only.
+# Comparable to a headless Kali. Offensive labs pulled per-need as distrobox containers.
 name: base
 description: Minimal security workstation
 bundles:
   - networking
+  - top10

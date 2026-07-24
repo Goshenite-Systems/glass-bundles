@@ -1,0 +1,63 @@
+# Goshenite bundle: forensics
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the forensics-lab distrobox.
+name: forensics
+description: "Digital forensics"
+category: forensics
+
+rpm:
+  - 7zip
+  - binwalk
+  - cabextract
+  - chkrootkit
+  - dc3dd
+  - dcfldd
+  - ddrescue
+  - exiv2
+  - extundelete
+  - foremost
+  - gdb
+  - gpart
+  - gparted
+  - lvm2
+  - lynis
+  - mac-robber
+  - md5deep
+  - mdbtools
+  - nasm
+  - parted
+  - python3-capstone
+  - radare2
+  - rkhunter
+  - rsakeyfind
+  - samdump2
+  - sleuthkit
+  - sqlitebrowser
+  - ssdeep
+  - tcpdump
+  - tcpflow
+  - tcpick
+  - tcpreplay
+  - undbx
+  - unhide
+  - unrar
+  - wireshark
+  - xmount
+  - yara
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   afflib-tools
+#   apktool
+#   autopsy
+#   binwalk3
+#   bulk-extractor
+#   bytecode-viewer
+#   creddump7
+#   dumpzilla
+#   edb-debugger
+#   ewf-tools
+#   exifprobe
+#   ext3grep
+#   ... +51 more
+containers:
+  - ghcr.io/goshenite-systems/forensics-lab:latest

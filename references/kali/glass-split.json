@@ -1,0 +1,726 @@
+{
+ "802-11": {
+  "rpm": [
+   "aircrack-ng",
+   "cowpatty",
+   "hashcat",
+   "iw",
+   "kismet",
+   "macchanger",
+   "pixiewps",
+   "reaver"
+  ],
+  "container": [
+   "airgeddon",
+   "asleap",
+   "bully",
+   "eapmd5pass",
+   "fern-wifi-cracker",
+   "freeradius-wpe",
+   "hostapd-wpe",
+   "mdk3",
+   "mdk4",
+   "wifi-honey",
+   "wifite"
+  ]
+ },
+ "bluetooth": {
+  "rpm": [
+   "bluez",
+   "bluez-hcidump",
+   "ubertooth"
+  ],
+  "container": [
+   "blue-hydra",
+   "bluelog",
+   "blueranger",
+   "bluesnarfer",
+   "btscanner",
+   "crackle",
+   "redfang",
+   "spooftooph"
+  ]
+ },
+ "crypto-stego": {
+  "rpm": [
+   "aesfix",
+   "aeskeyfind",
+   "steghide"
+  ],
+  "container": [
+   "ccrypt",
+   "stegosuite",
+   "stegsnow"
+  ]
+ },
+ "database": {
+  "rpm": [
+   "mdbtools",
+   "sqlitebrowser"
+  ],
+  "container": [
+   "jsql-injection",
+   "oscanner",
+   "sidguesser",
+   "sqldict",
+   "sqlmap",
+   "sqlninja",
+   "sqlsus",
+   "tnscmd10g"
+  ]
+ },
+ "detect": {
+  "rpm": [],
+  "container": [
+   "grokevt",
+   "sentrypeer"
+  ]
+ },
+ "exploitation": {
+  "rpm": [],
+  "container": [
+   "armitage",
+   "beef-xss",
+   "exploitdb",
+   "metasploit-framework",
+   "msfpc",
+   "set",
+   "shellnoob",
+   "sqlmap",
+   "termineter"
+  ]
+ },
+ "forensics": {
+  "rpm": [
+   "7zip",
+   "binwalk",
+   "cabextract",
+   "chkrootkit",
+   "dc3dd",
+   "dcfldd",
+   "ddrescue",
+   "exiv2",
+   "extundelete",
+   "foremost",
+   "gdb",
+   "gpart",
+   "gparted",
+   "lvm2",
+   "lynis",
+   "mac-robber",
+   "md5deep",
+   "mdbtools",
+   "nasm",
+   "parted",
+   "python3-capstone",
+   "radare2",
+   "rkhunter",
+   "rsakeyfind",
+   "samdump2",
+   "sleuthkit",
+   "sqlitebrowser",
+   "ssdeep",
+   "tcpdump",
+   "tcpflow",
+   "tcpick",
+   "tcpreplay",
+   "undbx",
+   "unhide",
+   "unrar",
+   "wireshark",
+   "xmount",
+   "yara"
+  ],
+  "container": [
+   "afflib-tools",
+   "apktool",
+   "autopsy",
+   "binwalk3",
+   "bulk-extractor",
+   "bytecode-viewer",
+   "creddump7",
+   "dumpzilla",
+   "edb-debugger",
+   "ewf-tools",
+   "exifprobe",
+   "ext3grep",
+   "ext4magic",
+   "fcrackzip",
+   "firmware-mod-kit",
+   "forensic-artifacts",
+   "forensics-colorize",
+   "galleta",
+   "grokevt",
+   "guymager",
+   "hashdeep",
+   "inetsim",
+   "jadx",
+   "javasnoop",
+   "libhivex-bin",
+   "libsmali-java",
+   "lime-forensics",
+   "magicrescue",
+   "memdump",
+   "metacam",
+   "missidentify",
+   "myrescue",
+   "nasty",
+   "ollydbg",
+   "pasco",
+   "pdf-parser",
+   "pdfid",
+   "plaso",
+   "polenum",
+   "pst-utils",
+   "python3-dfdatetime",
+   "python3-dfvfs",
+   "python3-dfwinreg",
+   "python3-distorm3",
+   "readpe",
+   "recoverdm",
+   "recoverjpeg",
+   "reglookup",
+   "regripper",
+   "rephrase",
+   "rifiuti",
+   "rifiuti2",
+   "rizin-cutter",
+   "rz-ghidra",
+   "safecopy",
+   "scalpel",
+   "scrounge-ntfs",
+   "truecrack",
+   "upx-ucl",
+   "vinetto",
+   "wce",
+   "winregfs",
+   "xplico"
+  ]
+ },
+ "fuzzing": {
+  "rpm": [],
+  "container": [
+   "afl++",
+   "sfuzz",
+   "spike",
+   "wfuzz"
+  ]
+ },
+ "gpu": {
+  "rpm": [],
+  "container": [
+   "oclgausscrack",
+   "truecrack"
+  ]
+ },
+ "hardware": {
+  "rpm": [
+   "binwalk",
+   "cutecom",
+   "flashrom",
+   "minicom",
+   "openocd",
+   "qemu-system-x86",
+   "qemu-user",
+   "radare2"
+  ],
+  "container": [
+   "binwalk3",
+   "rizin-cutter",
+   "rz-ghidra"
+  ]
+ },
+ "identify": {
+  "rpm": [],
+  "container": [
+   "amass",
+   "assetfinder",
+   "cisco-auditing-tool",
+   "defectdojo",
+   "exploitdb",
+   "hb-honeypot",
+   "maltego",
+   "maryam",
+   "nipper-ng",
+   "osrframework",
+   "spiderfoot",
+   "tiger",
+   "wapiti",
+   "witnessme",
+   "zaproxy"
+  ]
+ },
+ "information-gathering": {
+  "rpm": [
+   "dnsenum",
+   "dnsmap",
+   "dnstracer",
+   "firewalk",
+   "fping",
+   "hping3",
+   "lbd",
+   "masscan",
+   "netmask",
+   "nmap",
+   "onesixtyone",
+   "p0f",
+   "snmpcheck",
+   "ssldump",
+   "sslh",
+   "sslscan",
+   "swaks",
+   "thc-ipv6",
+   "wafw00f"
+  ],
+  "container": [
+   "0trace",
+   "arping",
+   "braa",
+   "dmitry",
+   "dnsrecon",
+   "dnswalk",
+   "enum4linux",
+   "fierce",
+   "fragrouter",
+   "ftester",
+   "ike-scan",
+   "intrace",
+   "irpas",
+   "legion",
+   "maltego",
+   "metagoofil",
+   "nbtscan",
+   "ncat",
+   "netdiscover",
+   "qsslcaudit",
+   "recon-ng",
+   "smbmap",
+   "smtp-user-enum",
+   "sslyze",
+   "theharvester",
+   "tlssled",
+   "twofi",
+   "unicornscan",
+   "urlcrazy",
+   "zenmap"
+  ]
+ },
+ "passwords": {
+  "rpm": [
+   "chntpw",
+   "cmospwd",
+   "hashcat",
+   "hydra",
+   "john",
+   "medusa",
+   "ncrack",
+   "onesixtyone",
+   "ophcrack",
+   "pack",
+   "pdfcrack",
+   "samdump2"
+  ],
+  "container": [
+   "cewl",
+   "cisco-auditing-tool",
+   "crackle",
+   "creddump7",
+   "crunch",
+   "fcrackzip",
+   "freerdp3-x11",
+   "gpp-decrypt",
+   "hash-identifier",
+   "hashcat-utils",
+   "hashid",
+   "hydra-gtk",
+   "johnny",
+   "maskprocessor",
+   "mimikatz",
+   "ophcrack-cli",
+   "pack2",
+   "passing-the-hash",
+   "patator",
+   "pipal",
+   "polenum",
+   "rainbowcrack",
+   "rarcrack",
+   "rcracki-mt",
+   "rsmangler",
+   "seclists",
+   "sipcrack",
+   "sipvicious",
+   "smbmap",
+   "sqldict",
+   "statsprocessor",
+   "sucrack",
+   "thc-pptp-bruter",
+   "truecrack",
+   "twofi",
+   "wordlists"
+  ]
+ },
+ "post-exploitation": {
+  "rpm": [
+   "iodine",
+   "proxytunnel",
+   "sbd",
+   "sslh"
+  ],
+  "container": [
+   "cymothoa",
+   "dbd",
+   "dns2tcp",
+   "exe2hexbat",
+   "laudanum",
+   "mimikatz",
+   "miredo",
+   "nishang",
+   "powersploit",
+   "proxychains4",
+   "ptunnel",
+   "pwnat",
+   "shellter",
+   "stunnel4",
+   "udptunnel",
+   "veil",
+   "webacoo",
+   "weevely"
+  ]
+ },
+ "protect": {
+  "rpm": [
+   "clamav",
+   "cryptsetup"
+  ],
+  "container": [
+   "cryptsetup-initramfs",
+   "cryptsetup-nuke-password",
+   "fwbuilder"
+  ]
+ },
+ "recover": {
+  "rpm": [
+   "ddrescue",
+   "extundelete",
+   "undbx"
+  ],
+  "container": [
+   "ext3grep",
+   "myrescue",
+   "recoverdm",
+   "recoverjpeg",
+   "scrounge-ntfs"
+  ]
+ },
+ "reporting": {
+  "rpm": [],
+  "container": [
+   "cutycapt",
+   "dradis",
+   "eyewitness",
+   "faraday",
+   "maltego",
+   "metagoofil",
+   "pipal",
+   "recordmydesktop"
+  ]
+ },
+ "respond": {
+  "rpm": [
+   "netsniff-ng"
+  ],
+  "container": [
+   "ewf-tools",
+   "ghidra",
+   "guymager",
+   "hashrat",
+   "impacket-scripts"
+  ]
+ },
+ "reverse-engineering": {
+  "rpm": [
+   "clang",
+   "radare2",
+   "rizin"
+  ],
+  "container": [
+   "apktool",
+   "bytecode-viewer",
+   "dex2jar",
+   "edb-debugger",
+   "jadx",
+   "javasnoop",
+   "jd-gui",
+   "metasploit-framework",
+   "ollydbg",
+   "rizin-cutter",
+   "rz-ghidra"
+  ]
+ },
+ "rfid": {
+  "rpm": [
+   "gnuradio",
+   "proxmark3"
+  ],
+  "container": [
+   "rfdump"
+  ]
+ },
+ "sdr": {
+  "rpm": [
+   "chirp",
+   "gnuradio",
+   "gr-air-modes",
+   "gr-iqbal",
+   "gr-osmosdr",
+   "hackrf",
+   "kalibrate-rtl"
+  ],
+  "container": [
+   "gqrx-sdr",
+   "inspectrum",
+   "multimon-ng",
+   "uhd-host",
+   "uhd-images"
+  ]
+ },
+ "sniffing-spoofing": {
+  "rpm": [
+   "darkstat",
+   "dsniff",
+   "macchanger",
+   "netsniff-ng",
+   "sslsplit",
+   "tcpflow",
+   "tcpreplay",
+   "wireshark"
+  ],
+  "container": [
+   "above",
+   "bettercap",
+   "dnschef",
+   "driftnet",
+   "ettercap-graphical",
+   "ferret-sidejack",
+   "fiked",
+   "hamster-sidejack",
+   "hexinject",
+   "isr-evilgrade",
+   "mitmproxy",
+   "rebind",
+   "responder",
+   "sniffjoke",
+   "sslsniff",
+   "wifi-honey"
+  ]
+ },
+ "social-engineering": {
+  "rpm": [],
+  "container": [
+   "beef-xss",
+   "maltego",
+   "msfpc",
+   "set",
+   "veil"
+  ]
+ },
+ "top10": {
+  "rpm": [
+   "aircrack-ng",
+   "hydra",
+   "john",
+   "nmap",
+   "wireshark"
+  ],
+  "container": [
+   "burpsuite",
+   "metasploit-framework",
+   "netexec",
+   "responder",
+   "sqlmap"
+  ]
+ },
+ "voip": {
+  "rpm": [
+   "nmap",
+   "sipp",
+   "wireshark"
+  ],
+  "container": [
+   "enumiax",
+   "iaxflood",
+   "inviteflood",
+   "libfindrtp",
+   "ohrwurm",
+   "protos-sip",
+   "rtpbreak",
+   "rtpflood",
+   "rtpinsertsound",
+   "rtpmixsound",
+   "sctpscan",
+   "siparmyknife",
+   "sipcrack",
+   "sipvicious",
+   "voiphopper"
+  ]
+ },
+ "vulnerability": {
+  "rpm": [
+   "lynis",
+   "nmap",
+   "siege",
+   "sipp",
+   "sipsak"
+  ],
+  "container": [
+   "afl++",
+   "bed",
+   "cisco-auditing-tool",
+   "cisco-global-exploiter",
+   "cisco-ocs",
+   "cisco-torch",
+   "copy-router-config",
+   "dhcpig",
+   "enumiax",
+   "gvm",
+   "iaxflood",
+   "inviteflood",
+   "legion",
+   "nikto",
+   "ohrwurm",
+   "peass",
+   "protos-sip",
+   "rtpbreak",
+   "rtpflood",
+   "rtpinsertsound",
+   "rtpmixsound",
+   "sctpscan",
+   "sfuzz",
+   "siparmyknife",
+   "sipvicious",
+   "slowhttptest",
+   "spike",
+   "t50",
+   "thc-ssl-dos",
+   "unix-privesc-check",
+   "voiphopper",
+   "yersinia"
+  ]
+ },
+ "web": {
+  "rpm": [
+   "cadaver",
+   "httrack",
+   "hydra",
+   "lbd",
+   "medusa",
+   "ncrack",
+   "nmap",
+   "php",
+   "proxytunnel",
+   "redsocks",
+   "siege",
+   "sqlitebrowser",
+   "ssldump",
+   "sslh",
+   "sslscan",
+   "sslsplit",
+   "wafw00f",
+   "whatweb",
+   "wireshark"
+  ],
+  "container": [
+   "apache-users",
+   "apache2",
+   "beef-xss",
+   "burpsuite",
+   "commix",
+   "cutycapt",
+   "davtest",
+   "default-mysql-server",
+   "dirb",
+   "dirbuster",
+   "dotdotpwn",
+   "eyewitness",
+   "ferret-sidejack",
+   "ftester",
+   "hakrawler",
+   "hamster-sidejack",
+   "heartleech",
+   "httprint",
+   "hydra-gtk",
+   "jboss-autopwn",
+   "joomscan",
+   "jsql-injection",
+   "laudanum",
+   "maltego",
+   "mitmproxy",
+   "nikto",
+   "nishang",
+   "oscanner",
+   "owasp-mantra-ff",
+   "padbuster",
+   "paros",
+   "patator",
+   "php-mysql",
+   "proxychains4",
+   "qsslcaudit",
+   "sidguesser",
+   "skipfish",
+   "slowhttptest",
+   "sqldict",
+   "sqlmap",
+   "sqlninja",
+   "sqlsus",
+   "sslsniff",
+   "sslyze",
+   "stunnel4",
+   "thc-ssl-dos",
+   "tlssled",
+   "tnscmd10g",
+   "uniscan",
+   "wapiti",
+   "watobo",
+   "webacoo",
+   "webscarab",
+   "webshells",
+   "weevely",
+   "wfuzz",
+   "wpscan",
+   "xsser",
+   "zaproxy"
+  ]
+ },
+ "windows-resources": {
+  "rpm": [
+   "sbd"
+  ],
+  "container": [
+   "dbd",
+   "dnschef",
+   "heartleech",
+   "hyperion",
+   "mimikatz",
+   "ncat-w32",
+   "ollydbg",
+   "powercat",
+   "regripper",
+   "secure-socket-funneling-windows-binaries",
+   "shellter",
+   "tftpd32",
+   "wce",
+   "windows-binaries",
+   "windows-privesc-check"
+  ]
+ },
+ "wireless": {
+  "rpm": [
+   "wireshark"
+  ],
+  "container": [
+   "rfcat",
+   "rfkill",
+   "sakis3g"
+  ]
+ }
+}

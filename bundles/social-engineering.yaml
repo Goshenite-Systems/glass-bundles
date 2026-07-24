@@ -1,0 +1,15 @@
+# Goshenite bundle: social-engineering
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the social-engineering-lab distrobox.
+name: social-engineering
+description: "Social engineering"
+category: social-engineering
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   beef-xss
+#   maltego
+#   msfpc
+#   set
+#   veil
+containers:
+  - ghcr.io/goshenite-systems/social-engineering-lab:latest

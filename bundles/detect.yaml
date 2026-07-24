@@ -1,0 +1,12 @@
+# Goshenite bundle: detect
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the detect-lab distrobox.
+name: detect
+description: "Defensive: detect (NIST CSF)"
+category: detect
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   grokevt
+#   sentrypeer
+containers:
+  - ghcr.io/goshenite-systems/detect-lab:latest

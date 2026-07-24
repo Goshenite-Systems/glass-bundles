@@ -1,0 +1,18 @@
+# Goshenite bundle: respond
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the respond-lab distrobox.
+name: respond
+description: "Defensive: respond (NIST CSF)"
+category: respond
+
+rpm:
+  - netsniff-ng
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   ewf-tools
+#   ghidra
+#   guymager
+#   hashrat
+#   impacket-scripts
+containers:
+  - ghcr.io/goshenite-systems/respond-lab:latest

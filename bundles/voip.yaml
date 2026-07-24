@@ -1,0 +1,28 @@
+# Goshenite bundle: voip
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the voip-lab distrobox.
+name: voip
+description: "VoIP assessment"
+category: voip
+
+rpm:
+  - nmap
+  - sipp
+  - wireshark
+
+# The following Kali tools have no Fedora RPM and ship in the lab container:
+#   enumiax
+#   iaxflood
+#   inviteflood
+#   libfindrtp
+#   ohrwurm
+#   protos-sip
+#   rtpbreak
+#   rtpflood
+#   rtpinsertsound
+#   rtpmixsound
+#   sctpscan
+#   siparmyknife
+#   ... +3 more
+containers:
+  - ghcr.io/goshenite-systems/voip-lab:latest

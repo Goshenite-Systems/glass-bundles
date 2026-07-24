@@ -1,0 +1,24 @@
+# Goshenite edition: Large
+# Comparable to kali-linux-large — standard plus the heavy offensive + RF/hardware set.
+name: large
+description: Extended security workstation (comparable to kali-linux-large)
+bundles:
+  - networking
+  - top10
+  - information-gathering
+  - vulnerability
+  - web
+  - database
+  - passwords
+  - exploitation
+  - post-exploitation
+  - sniffing-spoofing
+  - reverse-engineering
+  - forensics
+  - wireless
+  - 802-11
+  - bluetooth
+  - sdr
+  - rfid
+  - hardware
+  - voip

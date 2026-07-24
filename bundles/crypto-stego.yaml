@@ -1,0 +1,11 @@
+# Goshenite bundle: crypto-stego
+# Auto-generated from Kali reverse-engineering (references/kali/).
+# rpm: = verified in Fedora 44; container tools shipped via the crypto-stego-lab distrobox.
+name: crypto-stego
+description: "Cryptography & steganography"
+category: crypto-stego
+
+rpm:
+  - aesfix
+  - aeskeyfind
+  - steghide
