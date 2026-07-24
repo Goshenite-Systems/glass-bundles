@@ -1,0 +1,8 @@
+# Goshenite edition: Standard
+# Comparable to kali-linux-default — the everyday pentest set.
+name: standard
+description: Standard security workstation (comparable to kali-linux-default)
+bundles:
+  - networking
+  - web
+  - passwords

@@ -1,0 +1,6 @@
+# Goshenite edition: Everything
+# Every officially supported bundle. The wildcard resolves to all manifests present.
+name: everything
+description: Every officially supported Goshenite bundle
+bundles:
+  - "*"

@@ -1,0 +1,42 @@
+# Goshenite bundle: web application assessment
+#
+# Reality checks applied:
+#  * Only tools that actually ship as Fedora/COPR RPMs go in `rpm:`.
+#    (sqlmap, nikto, wafw00f, whatweb, wfuzz are in Fedora; gobuster/ffuf via COPR.)
+#  * Burp Suite has no Fedora RPM and is proprietary -> Flatpak.
+#  * Heavy / fast-moving lab tooling -> container (distrobox), not host RPM.
+name: web
+description: Web application assessment tooling
+category: web
+
+# COPR repos needed for RPMs not in Fedora proper. Disabled again after install.
+copr:
+  - dirtsimple/gobuster
+
+rpm:
+  - sqlmap
+  - nikto
+  - wafw00f
+  - whatweb
+  - wfuzz
+  - gobuster
+
+flatpak:
+  - io.github.portswigger.BurpSuiteCommunity
+
+# Fast-moving offensive web tooling lives in a distrobox, not layered on the host.
+containers:
+  - ghcr.io/goshenite-systems/web-lab:latest
+
+# Categorized menu entries (KDE + GNOME). Strings become terminal launchers.
+desktop:
+  - sqlmap
+  - nikto
+  - name: gobuster
+    exec: gobuster
+    terminal: true
+
+config:
+  aliases:
+    sqlmap-crawl: "sqlmap --crawl=2 --batch"
+    fuzz: "wfuzz -c -z file,/usr/share/wordlists/dirb/common.txt"

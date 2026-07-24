@@ -1,0 +1,28 @@
+# Goshenite bundle: network reconnaissance & scanning
+name: networking
+description: Network reconnaissance, scanning and analysis
+category: networking
+
+rpm:
+  - nmap
+  - masscan
+  - netcat
+  - tcpdump
+  - wireshark-cli
+  - dnsenum
+  - whois
+  - traceroute
+
+flatpak:
+  - org.wireshark.Wireshark
+
+desktop:
+  - nmap
+  - name: wireshark
+    exec: wireshark
+    terminal: false
+
+config:
+  aliases:
+    nmap-quick: "nmap -T4 -F"
+    nmap-full: "nmap -T4 -A -p-"
